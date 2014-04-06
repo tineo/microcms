@@ -19,10 +19,16 @@
         "symfony/security": "~2.2",
         "symfony/translation": "~2.2",
         "symfony/twig-bridge": "~2.2",
-        "symfony/validator": "~2.2"
+        "symfony/validator": "~2.2",
+        "doctrine/dbal": "2.4.*",
+        "symfony/doctrine-bridge": "2.*",
+        "dflydev/doctrine-orm-service-provider": "1.0.*@dev"
     },
     "autoload": {
-        "psr-0": { "": "src/" }
+        "psr-0": {
+            "": "src/",
+            "Tineo":"src/tineo/",
+            "Tineo/Entity":"config/doctrine/tineo/"}
     },
     "extra": {
         "branch-alias": {
