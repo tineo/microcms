@@ -2,6 +2,6 @@
 # .openshift/action_hooks/deploy
  
 
-cd $OPENSHIFT_REPO_DIR
-/usr/local/zend/bin/php composer.phar install
+#cd $OPENSHIFT_REPO_DIR
+#/usr/local/zend/bin/php composer.phar install
 
